@@ -18,57 +18,61 @@ import logoutActive from '../../../assets/images/logoutActive.png';
 import { IMenuLinkProps } from '../../../interfaces/GeneralInterfaces';
 import MenuLink from '../MenuLink';
 import { MenuSidebarStyle } from './style';
+import { useLocation } from 'react-router-dom';
 
 interface menuProps {
     customClass: string;
 }
 
 const MenuSidebar = ({ customClass }: menuProps) => {
+
+    const location = useLocation();
+
     const menuLinks = [
         {
-            route: '/home',
+            route: '/',
             name: 'Visão Geral',
             icon: <img src={overview} alt="visão geral" />,
             activeIcon: <img src={overviewActive} alt="visão geral ativada" />
         },
         {
-            route: '/stores',
+            route: '/lojas',
             name: 'Lojas',
             icon: <img src={stores} alt="lojas" />,
             activeIcon: <img src={storesActive} alt="lojas ativada" />
         },
         {
-            route: '/sales',
+            route: '/vendas',
             name: 'Vendas',
             icon: <img src={sales} alt="vendas" />,
             activeIcon: <img src={salesActive} alt="vendas ativada" />
         },
         {
-            route: '/clients',
+            route: '/clientes',
             name: 'Clientes',
             icon: <img src={clients} alt="clientes" />,
             activeIcon: <img src={clientsActive} alt="clientes ativado" />
         },
         {
-            route: '/products',
+            route: '/produtos',
             name: 'Produtos',
             icon: <img src={products} alt="produtos" />,
             activeIcon: <img src={productsActive} alt="produtos ativado" />
         },
         {
-            route: '/plans',
+            route: '/planos',
             name: 'Planos e Metas',
             icon: <img src={plans} alt="planos e metas" />,
             activeIcon: <img src={plansActive} alt="planos e metas ativado" />
         },
         {
-            route: '/settings',
+            route: '/configuracoes',
             name: 'Configurações',
             icon: <img src={settings} alt="configurações" />,
             activeIcon: <img src={settingsActive} alt="configurações ativado" />
         },
         {
-            route: '/logout',
+            route: '/sair',
             name: 'Sair',
             icon: <img src={logout} alt="sair" />,
             activeIcon: <img src={logoutActive} alt="sair ativado" />
@@ -82,6 +86,7 @@ const MenuSidebar = ({ customClass }: menuProps) => {
                 activeIcon={menuLink.activeIcon}
                 name={menuLink.name}
                 route={menuLink.route}
+                currentRoute={location.pathname === menuLink.route}
             />
         )
     }
@@ -94,14 +99,11 @@ const MenuSidebar = ({ customClass }: menuProps) => {
                     <span className="bagyTitle">Dashboard Bagy</span>
                 </div>
                 <nav className="menuNav">
-                    <img className="overviewNav" src={overview} alt="visão geral" />
-                    <span className="linkNav">teste</span>
-                    {/* {menuLinks && menuLinks.map((item: IMenuLinkProps) => {
-                        if (item.isVisible) {
-                            return renderMenuLink(item)
-                        }
-                        return null;
-                    })} */}
+                    {menuLinks && menuLinks.map((item: IMenuLinkProps) => {
+                        console.log(item)
+                        return renderMenuLink(item)
+
+                    })}
                 </nav>
             </div>
         </MenuSidebarStyle>

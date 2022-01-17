@@ -17,7 +17,7 @@ $font-primary-bold: 'MulishBold';
 :root {
     --color-white: #FFF;
     --color-black: #000;
-    --color-green: #{$color-green};
+    --color-green: $color-green;
     
 
 }

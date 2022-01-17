@@ -3,9 +3,12 @@ import styled from "styled-components";
 export const CardStyle = styled.div`
     background-color: #FFF;
     display: flex;
-    width: 240px;
-    height: 110px;
-    padding: 15px;
+    width: 241px;
+    margin: 0 12px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    height: 100px;
+    padding: 13px;
     border: 1px solid #DDE2FF;
     border-radius: 10px;
     font-family: 'Mulish', sans-serif;
@@ -13,6 +16,7 @@ export const CardStyle = styled.div`
     align-items: center;
     justify-content: center;
     text-align: center;
+    display: inline-block;
         &:hover{
             color: #FC3C8D;
             border: 2px solid #DDE2FF;

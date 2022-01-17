@@ -22,7 +22,7 @@ export const MenuSidebarStyle = styled.div`
         position: absolute;
     }
 
-    .menuNav {
+    /* .menuNav {
         &:hover {
             color: #FFF;
             background-color: #FC3C8D;
@@ -31,15 +31,15 @@ export const MenuSidebarStyle = styled.div`
         }
     }
 
-    .linkNav {
+    .menu-link {
         color: #FFF;
         font-size: 20px;
         position: absolute;
         padding-top: 22px;
     }
 
-    .overviewNav {
+    .icon {
         width: 8%;
         margin: 20px;
-    }
+    } */
 `

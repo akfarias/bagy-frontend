@@ -3,9 +3,9 @@ import styled from "styled-components";
 export const CardLeftSide = styled.div`
     background-color: #FFF;
     display: flex;
-    width: 240px;
-    height: 110px;
-    padding: 15px;
+    width: 230px;
+    height: 100px;
+    padding: 12px;
     border: 1px solid #DDE2FF;
     border-radius: 10px;
     font-family: 'Mulish', sans-serif;
@@ -13,6 +13,7 @@ export const CardLeftSide = styled.div`
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: relative;
 
     .principalInfo {
         font-size: 20px;

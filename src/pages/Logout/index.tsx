@@ -1,21 +1,21 @@
 import Header from "../../components/Header";
 import MenuSidebar from "../../components/MenuSidebar/MenuSidebar";
-import { StoresStyle } from "./style";
+import { LogoutStyle } from "./style";
 
-const Stores = () => {
+const Logout = () => {
     return (
-        <StoresStyle>
+        <LogoutStyle>
             <div className="wrapper">
                 <div className="header">
-                    <Header title={"Lojas"} />
+                    <Header title={"Sair"} />
                 </div>
 
                 <div className="sidebar">
                     <MenuSidebar customClass={""} />
                 </div>
             </div>
-        </StoresStyle>
+        </LogoutStyle>
     )
 }
 
-export default Stores;
+export default Logout;

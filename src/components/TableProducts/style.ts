@@ -7,13 +7,11 @@ export const TableProductsStyle = styled.div`
     display: flex;
     width: 546px;
     height: 280px;
-    padding: 20px;
-    /* margin-top: -23%;
-    margin-left: 58%; */
+    padding: 18px;
+    margin: 5px 0;
     border: 1px solid #c4c4c4;
     border-radius: 10px;
     font-family: 'Mulish', sans-serif;
-    overflow: hidden;
 
     .scroll {
         overflow: auto; 

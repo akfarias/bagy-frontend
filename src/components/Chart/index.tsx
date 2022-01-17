@@ -1,8 +1,8 @@
 import Chart from 'react-apexcharts';
 import { Component } from 'react';
 import { ChartStyle } from './style';
-
-export default class LineChart extends Component {
+import React from 'react';
+export default class LineChart extends React.Component<{}, any> {
     constructor(props: any) {
         super(props);
 
@@ -24,6 +24,9 @@ export default class LineChart extends Component {
                 dataLabels: {
                     enabled: false
                 },
+                dropShadow: {
+                    enabled: false
+                }
             },
             series: [
                 {
@@ -50,7 +53,7 @@ export default class LineChart extends Component {
                         </div>
                     </div>
                     <div className="chart">
-                        <Chart options={this.state.options} series={this.state.series} type="area" height={380} width={600} />
+                        <Chart options={this.state.options} series={this.state.series} type="area" height={570} width={850} />
                     </div>
                 </div>
             </ChartStyle>

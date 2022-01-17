@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { IMenuLinkProps } from '../../../interfaces/GeneralInterfaces';
+import { MenuLinkStyle } from './style';
 
 const MenuLink: React.FC<IMenuLinkProps> = ({
     route,
@@ -9,10 +10,13 @@ const MenuLink: React.FC<IMenuLinkProps> = ({
     icon
 }) => {
     return (
-        <Link to={route} className="nav-item">
-            <div className="icon">{currentRoute ? activeIcon : icon}</div>
-            <span>{name}</span>
-        </Link>
+        <MenuLinkStyle>
+            <Link to={route} >
+                <div className="nav-item">
+                    <div className="icon">{currentRoute ? activeIcon : icon}<span className="menu-link">{name}</span></div>
+                </div>
+            </Link>
+        </MenuLinkStyle>
     )
 }
 
