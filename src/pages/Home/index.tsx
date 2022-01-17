@@ -8,13 +8,11 @@ import Card from "../../components/Card";
 import MenuSidebar from "../../components/MenuSidebar/MenuSidebar";
 import CardLeft from "../../components/CardLeft";
 import LineChart from "../../components/Chart";
-//import TableFatured from "../../components/TableFatured";
-// import Logo from "../../components/Logo";
 
 const Home: React.FC<IPage> = props => {
     useEffect(() => {
 
-    }, [])
+    }, []);
 
     return (
         <HomeStyle>
@@ -48,7 +46,6 @@ const Home: React.FC<IPage> = props => {
                     </div>
                 </div>
 
-
                 <div className="fatured">
                     <TableFatured />
                 </div>
@@ -58,7 +55,7 @@ const Home: React.FC<IPage> = props => {
                 </div>
             </div>
         </HomeStyle >
-    )
+    );
 }
 
 export default Home;

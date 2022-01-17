@@ -17,7 +17,7 @@ const MenuLink: React.FC<IMenuLinkProps> = ({
                 </div>
             </Link>
         </MenuLinkStyle>
-    )
+    );
 }
 
 export default MenuLink;

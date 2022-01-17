@@ -15,7 +15,7 @@ const Plans = () => {
                 </div>
             </div>
         </PlansStyle>
-    )
+    );
 }
 
 export default Plans;

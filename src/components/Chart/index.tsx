@@ -1,10 +1,9 @@
 import Chart from 'react-apexcharts';
-import { Component } from 'react';
 import { ChartStyle } from './style';
 import React from 'react';
 export default class LineChart extends React.Component<{}, any> {
     constructor(props: any) {
-        super(props);
+        super(props)
 
         this.state = {
             options: {
@@ -37,8 +36,8 @@ export default class LineChart extends React.Component<{}, any> {
                     data: [15, 30, 50, 18, 32, 50, 40]
                 }
             ]
-        };
-    }
+        }
+    };
 
     render() {
         return (

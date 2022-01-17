@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, } from "react-router-dom";
+import { Route, Routes, } from "react-router-dom";
 
 /* Pages */
 import Home from '../pages/Home';
@@ -13,8 +13,7 @@ import Logout from "../pages/Logout";
 export default function ProjectRoutes() {
     return (
         <Routes>
-            {/* <Route path="/" element={() => PageSideBar} /> */}
-            <Route path="/" element={<Home name={"teste"} />} />
+            <Route path="/" element={<Home name={""} />} />
             <Route path="/lojas" element={<Stores />} />
             <Route path="/vendas" element={<Sales />} />
             <Route path="/clientes" element={<Clients />} />
@@ -26,6 +25,5 @@ export default function ProjectRoutes() {
             {/* 404 */}
             <Route path="*" element={() => <h1>Página não encontrada</h1>} />
         </Routes>
-
     );
 }

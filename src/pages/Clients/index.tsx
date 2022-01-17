@@ -15,7 +15,7 @@ const Clients = () => {
                 </div>
             </div>
         </ClientsStyle>
-    )
+    );
 }
 
 export default Clients;

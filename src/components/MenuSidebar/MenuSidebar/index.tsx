@@ -107,6 +107,7 @@ const MenuSidebar = ({ customClass }: menuProps) => {
                 </nav>
             </div>
         </MenuSidebarStyle>
-    )
+    );
 }
+
 export default MenuSidebar

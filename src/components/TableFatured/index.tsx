@@ -13,9 +13,7 @@ const TableFatured = () => {
                                 <option value="1">Semanal</option>
                                 <option value="2">Mensal</option>
                             </select>
-
                         </div>
-
                     </div>
 
                     <table className="tablePurchases">
@@ -68,7 +66,6 @@ const TableFatured = () => {
                                 <td className="quantity">89 compras</td>
                                 <td className="price">R$ 281,00</td>
                             </tr>
-
                         </tbody>
                     </table>
                 </div>

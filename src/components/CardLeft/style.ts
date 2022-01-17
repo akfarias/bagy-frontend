@@ -9,30 +9,36 @@ export const CardLeftSide = styled.div`
     border: 1px solid #DDE2FF;
     border-radius: 10px;
     font-family: 'Mulish', sans-serif;
-    overflow: hidden;
     align-items: center;
     justify-content: center;
     text-align: center;
     position: relative;
 
-    .principalInfo {
-        font-size: 20px;
-        font-weight: 900;
-        color: #C4C4C4;  
-    }
+    .analysis {
+        display: inline-grid;
+        align-items: center;
+        text-align: center;
+        align-content: center;
 
-    .value {
-        font-size: 28px;
-        font-weight: 700;
-        color: #000;
-    
-    }
+        .principalInfo {
+            font-size: 20px;
+            font-weight: 900;
+            color: #C4C4C4;  
+        }
 
-    .positive {
-        color: #219653;
-    }
+        .value {
+            font-size: 28px;
+            font-weight: 700;
+            color: #000;
+        
+        }
 
-    .select {
-        text-decoration: underline
+        .positive {
+            color: #219653;
+        }
+
+        .select {
+            text-decoration: underline
+        }
     }
 `

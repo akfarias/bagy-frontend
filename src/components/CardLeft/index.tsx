@@ -10,7 +10,7 @@ const CardLeft: React.FC<InforCardProps> = (props) => {
                 <span className={`value ${props.customClass}`}>{props.value}</span>
             </div>
         </CardLeftSide>
-    )
+    );
 }
 
 export default CardLeft;

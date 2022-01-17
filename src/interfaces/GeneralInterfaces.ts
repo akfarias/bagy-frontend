@@ -22,11 +22,9 @@ interface ILogoProps {
     customClass?: string;
 }
 
-
 interface IMainInformation {
     customClass?: string;
     children?: React.ReactChild;
-
 }
 
 interface InforCardProps {
@@ -35,7 +33,6 @@ interface InforCardProps {
     info?: string,
     select?: string,
     customClass?: string
-
 }
 
 interface IMainProps {
@@ -45,7 +42,6 @@ interface IMainProps {
 interface IHeader {
     title: string
 }
-
 
 export type {
     IRoutes,

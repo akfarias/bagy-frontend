@@ -15,7 +15,7 @@ const Sales = () => {
                 </div>
             </div>
         </SalesStyle>
-    )
+    );
 }
 
 export default Sales;

@@ -29,7 +29,7 @@ const Header: React.FC<IHeader> = (props) => {
                 </div>
             </header>
         </HeaderStyle>
-    )
+    );
 }
 
 export default Header;

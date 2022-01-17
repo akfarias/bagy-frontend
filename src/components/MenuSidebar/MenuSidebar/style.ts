@@ -10,9 +10,6 @@ export const MenuSidebarStyle = styled.div`
         padding: 18px;
     }
 
-    .bagyLogo {
-    }
-
     .bagyTitle {
         color: #C4C4C4;
         font-size: 24px;
@@ -21,25 +18,4 @@ export const MenuSidebarStyle = styled.div`
         margin-top: 15px;
         position: absolute;
     }
-
-    /* .menuNav {
-        &:hover {
-            color: #FFF;
-            background-color: #FC3C8D;
-            opacity: 0.5;
-            border: 1px solid #FFF;            
-        }
-    }
-
-    .menu-link {
-        color: #FFF;
-        font-size: 20px;
-        position: absolute;
-        padding-top: 22px;
-    }
-
-    .icon {
-        width: 8%;
-        margin: 20px;
-    } */
 `

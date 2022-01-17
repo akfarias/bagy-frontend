@@ -1,5 +1,4 @@
-import { Provider } from "react-redux";
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import ProjectRoutes from "./routes";
 
 function App() {
@@ -7,7 +6,6 @@ function App() {
     <BrowserRouter>
       <ProjectRoutes />
     </BrowserRouter>
-
   );
 }
 

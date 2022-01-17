@@ -15,7 +15,7 @@ const Stores = () => {
                 </div>
             </div>
         </StoresStyle>
-    )
+    );
 }
 
 export default Stores;

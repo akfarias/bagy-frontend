@@ -76,7 +76,7 @@ const TableProducts = () => {
                 </div>
             </div>
         </TableProductsStyle>
-    )
+    );
 }
 
 export default TableProducts;

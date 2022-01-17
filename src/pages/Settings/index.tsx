@@ -15,7 +15,7 @@ const Settings = () => {
                 </div>
             </div>
         </SettingsStyle>
-    )
+    );
 }
 
 export default Settings;

@@ -7,7 +7,7 @@ const PageTitle: React.FC<IMainProps> = (props) => {
             <Header title={props.title} />
             {props.children}
         </section>
-    )
+    );
 }
 
 export default PageTitle;
