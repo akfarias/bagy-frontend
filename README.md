@@ -1,19 +1,25 @@
 # Bagy front-end
 
+## Sobre o projeto
+
+Aplicação criada para teste de ReactJS com template typescript.                       
+                                                                                                                          
 ## Tabela de conteúdo
 
 <!--ts-->
    * [Sobre o projeto](#sobre-o-projeto)
+      * [Layout da aplicação](#layout-da-aplicação)
       * [Construído com](#construído-com)
       * [Requisitos](#requisitos)
       * [Instalação](#instalação)
    * [Autora](#autora)
 <!--te-->
 
-## Sobre o projeto
+### Layout da aplicação
 
-Aplicação criada para teste de ReactJS com template typescript para melhorar legibilidade.
-
+<div align="left">
+  <img src="https://user-images.githubusercontent.com/73315527/149968883-a3692cf3-5425-4a2e-b9a2-9a58b4a4c329.png"/>
+</div>  
 
 ### Construído com 
 
