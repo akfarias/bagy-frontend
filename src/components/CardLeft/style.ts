@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const CardLeftSide = styled.div`
+export const CardLeftStyle = styled.div`
     background-color: #FFF;
     display: flex;
     width: 230px;

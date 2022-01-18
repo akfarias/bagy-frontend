@@ -1,15 +1,15 @@
 import { InforCardProps } from "../../interfaces/GeneralInterfaces";
-import { CardLeftSide } from "./style";
+import { CardLeftStyle } from "./style";
 
 const CardLeft: React.FC<InforCardProps> = (props) => {
     return (
-        <CardLeftSide>
+        <CardLeftStyle>
             <div className="analysis">
                 <span className="principalInfo">{props.principalInfo}</span>
                 <br />
                 <span className={`value ${props.customClass}`}>{props.value}</span>
             </div>
-        </CardLeftSide>
+        </CardLeftStyle>
     );
 }
 
