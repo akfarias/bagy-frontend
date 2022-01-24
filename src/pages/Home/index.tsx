@@ -6,7 +6,7 @@ import TableFatured from "../../components/TableFatured";
 import Header from "../../components/Header";
 import Card from "../../components/Card";
 import MenuSidebar from "../../components/MenuSidebar/MenuSidebar";
-import CardLeft from "../../components/CardLeft";
+import CardRight from "../../components/CardRight";
 import LineChart from "../../components/Chart";
 
 const Home: React.FC<IPage> = props => {
@@ -38,11 +38,11 @@ const Home: React.FC<IPage> = props => {
 
                 <div className="cardLeft">
                     <div className="info-group">
-                        <CardLeft principalInfo="Loja" value="Estilo Pri" customClass="select" />
-                        <CardLeft principalInfo="Mês" value="Julho" customClass="select" />
-                        <CardLeft principalInfo="Ano" value="2020" customClass="select" />
-                        <CardLeft principalInfo="Total de faturamento" value="R$ 45.000,00" />
-                        <CardLeft principalInfo="Análise comparativa" value="Positivo" customClass="positive" />
+                        <CardRight principalInfo="Loja" value="Estilo Pri" customClass="select" />
+                        <CardRight principalInfo="Mês" value="Julho" customClass="select" />
+                        <CardRight principalInfo="Ano" value="2020" customClass="select" />
+                        <CardRight principalInfo="Total de faturamento" value="R$ 45.000,00" />
+                        <CardRight principalInfo="Análise comparativa" value="Positivo" customClass="positive" />
                     </div>
                 </div>
 
